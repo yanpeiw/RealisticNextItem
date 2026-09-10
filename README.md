@@ -4,6 +4,8 @@ A Windows desktop overlay for League of Legends that reads your own client's loc
 
 Full product/engineering spec lives in [`LOL_ITEM_ADVISOR_BRAIN.md`](./LOL_ITEM_ADVISOR_BRAIN.md). This README covers what's actually built and how to run it.
 
+**[Try the engine in your browser →](https://yanpeiw.github.io/RealisticNextItem/)** -- the desktop app is Windows-only and needs a real (or mock) League match, but the recommendation engine itself is plain, portable TypeScript. This page runs that exact engine against adjustable mock scenarios, entirely client-side, so you can try the decision logic without installing anything. See [`web-demo/`](./web-demo) for the source; it redeploys automatically on every push to `main` via [the workflow below](./.github/workflows/deploy-demo.yml).
+
 ## What's in this MVP
 
 Implemented and tested:
